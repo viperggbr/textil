@@ -1,12 +1,19 @@
 {
   "enabledPlugins": {
-    "everything-claude-code@everything-claude-code": true
+    "everything-claude-code@everything-claude-code": true,
+    "claude-mem@algoritma-marketplace": true
   },
   "extraKnownMarketplaces": {
     "everything-claude-code": {
       "source": {
         "source": "github",
         "repo": "aaione/everything-claude-code-zh"
+      }
+    },
+    "algoritma-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "algoritma-dev/claude-plugins"
       }
     }
   }
